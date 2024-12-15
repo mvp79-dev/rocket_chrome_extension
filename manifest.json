@@ -1,0 +1,11 @@
+{
+    "name":"RocketReach Get Contacts",
+    "version":"0.01",
+    "description":"-",
+    "background":{
+        "service_worker":"bg.js"
+    },
+    "permissions":["scripting","storage"],
+    "host_permissions":["https://rocketreach.co/*","https://*.rocketreach.co/*"],
+    "manifest_version":3
+}
